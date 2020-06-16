@@ -27,7 +27,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan("dev.springdemo")
+@ComponentScan(basePackages = "dev.springdemo")
 public class SpringAppConfig {
 	
 	private final String WEB_INF = "/WEB-INF/view/";
@@ -42,6 +42,7 @@ public class SpringAppConfig {
 		// file suffix and prefix
 		viewResolver.setPrefix(WEB_INF);
 		viewResolver.setSuffix(JSP);
+
 		return viewResolver;
 
 	}
