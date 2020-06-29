@@ -1,6 +1,0 @@
-Springmvc.iml
-build/*
-*.idea*
-.idea/*
-.gitignore
-target/*

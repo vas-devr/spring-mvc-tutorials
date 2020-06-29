@@ -1,0 +1,4 @@
+dev/springdemo/config/SpringMvcDispatcherServletInitializer.class
+dev/springdemo/controllers/HelloWorldController.class
+dev/springdemo/config/SpringAppConfig.class
+dev/springdemo/controllers/BaseController.class
